@@ -1,0 +1,26 @@
+how many servers required: 3
+server type: AWS
+Server1:
+  Build_data:
+    OS_type: Linux
+    OS_version: RHEL 7
+    Environment_tags:
+      Name: abababa
+      Contact: 98765665
+      Owner: NA
+    Ec2_instance_type: t2.large
+  post_build:
+    server_env: non-production
+    AWS_region: UsEast_NorthVirginia
+Server2:
+  Build_data:
+    OS_type: Windows
+    OS_version: Microsoft win 10
+    Environment_tags:
+      Name: hdksgfs
+      Contact: 9872642354
+      Owner: NA
+    Ec2_instance_type: t2.large
+  post_build:
+    server_env: non-production
+    AWS_region: singapore
